@@ -1,9 +1,9 @@
 A startup called Sparkify wants to analyze the data they've been collecting on songs and user activity on their new music streaming app. We need to create a Postgres database and build an ETL pipeline for optimized querying and data handling.
 
-For this project, we will create a star schema because it allows for quicker aggregations and fewer joins. Our fact table songlplays contain records in log data that are associated with song plays. The dimension tables are users, artists, songs, and time. 
+For this project, we will create a star schema because it allows for quicker aggregations and fewer joins. Our fact table songplays contain records in log data that are associated with song plays. The dimension tables are users, artists, songs, and time. 
 
 
-How to Run:
+### How to Run:
 
 1. Connect to the default postgres user student 
 2. Run create_tables.py
@@ -11,7 +11,7 @@ How to Run:
 4. Look at results with test.ipynb
 
 
-Project Structure:
+### Project Structure:
 
 /data - This is the folder that provides song and log files. 
 
