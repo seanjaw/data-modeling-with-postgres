@@ -34,7 +34,7 @@ def process_log_file(cur, filepath):
     
         Keyword arguments:
         cur -- database cursor  
-        filepath -- filepath in str format
+        filepath -- filepath in string format
     """
 
     # open log file
